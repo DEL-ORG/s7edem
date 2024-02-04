@@ -21,12 +21,7 @@ services:
     networks:
       - mynetwork
 
-  auth:
-    image: your-auth-image:tag
-    networks:
-      - mynetwork
-    depends_on:
-      - db
+
 
 networks:
   mynetwork:
