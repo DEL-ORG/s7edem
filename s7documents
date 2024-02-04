@@ -1,4 +1,5 @@
-
+# Run app.py when the container launches
+CMD ["python", "app.py"]
 
 # Set the working directory to /app
 WORKDIR /app
